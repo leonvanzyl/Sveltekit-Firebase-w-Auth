@@ -63,6 +63,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Costs for {name}</title>
+</svelte:head>
+
 <div class="text-center sm:text-left flex flex-col gap-4">
 	<h1 class="text-2xl font-bold border-b pb-2 uppercase">{name}</h1>
 	<ul class="text-xs text-gray-400">
