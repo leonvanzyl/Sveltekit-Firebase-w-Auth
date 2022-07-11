@@ -54,6 +54,9 @@
 			// Add the generated ID
 			newData.id = docRef.id;
 			costs = [...costs, newData];
+
+			inputName = '';
+			inputCost = 1;
 		} catch (error) {
 			console.log(error);
 		}
